@@ -1,0 +1,11 @@
+#include<iostream>
+using namespace std;
+int main ()
+{
+	int n;
+	cout<<"enter the value of n: ";  //enter the number which you want to square//
+	cin>>n;
+	cout<<"square of "<<n<<" = "<<n*n<<"\n";
+	n++;
+	return 0;
+}
