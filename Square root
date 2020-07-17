@@ -1,0 +1,12 @@
+#include<iostream>
+#include<math.h>
+using namespace std;
+int main()
+{
+	 float square_root,n;
+   cout<<"enter the value of n=";
+	 cin>>n;
+	 square_root=sqrt(n);
+	 cout<<"square_root="<<square_root<<"\n";
+ return 0;
+}
