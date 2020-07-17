@@ -1,0 +1,18 @@
+#include<iostream>
+using namespace std;
+int main ()
+{
+	int n,l;
+	cout<<"enter the value of n: "; 
+	 //enter the number which you want to square//
+	cin>>n;
+	cout<<"find square till (l): "; 
+	 //enter the number till you want to square//
+	cin>>l;
+	while(n<=l)
+	{
+	cout<<"square of "<<n<<" = "<<n*n<<"\n";
+	n++;
+	}
+	return 0;
+}
