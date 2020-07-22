@@ -1,0 +1,46 @@
+#include <iostream>
+using namespace std;
+int main()
+{
+	int a,b,ch;
+	cout<<"1.Addition\n2.subtraction\n3.Multiplication\n4.Division";
+	cout<<"\nChoose anything as you want to do\n";	
+	cin>>ch;
+	
+	
+	  switch(ch)
+	  {
+	  	case 1: 
+		    cout<<"Enter the value of a = ";
+	        cin>>a;
+	      cout<<"Enter the value of b = ";
+	        cin>>b;
+	  		    cout<<a+b;
+	  		break;
+	  	case 2:
+		    cout<<"Enter the value of a = ";
+	        cin>>a;
+	      cout<<"Enter the value of b = ";
+	        cin>>b;
+	  		    cout<<a-b;
+	  		break;
+	  	case 3:
+	  		cout<<"Enter the value of a = ";
+	        cin>>a;
+	      cout<<"Enter the value of b = ";
+	        cin>>b;
+	  		    cout<<a*b;
+	  		break;
+	  	case 4:
+	  		cout<<"Enter the value of a = ";
+	        cin>>a;
+	      cout<<"Enter the value of b = ";
+	        cin>>b;
+	  		    cout<<a/b;
+	  		break;
+	  	
+	  	default:
+	  		cout<<"please choose correct number";
+	  }
+  return 0;	    
+}
