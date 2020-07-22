@@ -1,0 +1,14 @@
+#include <iostream>
+using namespace std;
+int main()
+{
+	int l,b,Area;
+	cout<<"we calculate the Area of rectangle";
+	cout<<"\nEnter the length = ";
+	cin>>l;
+	cout<<"Enter the breadth = ";
+	cin>>b;
+	Area=l*b;
+	cout<<"Area of rectangle= "<<Area<<"\n";
+    
+}
