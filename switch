@@ -1,0 +1,29 @@
+#include<iostream>
+using namespace std;
+int main()
+{
+	int  ch;
+	cout<<"choose any number which you want to change";
+	cout<<"\n1. 1\n2. 2\n3. 3\n4. 4\n5. 5\n";
+	cin>>ch;
+	 switch(ch)
+	 {
+	 	    case 1:
+	  		    cout<<"One";
+	  		    break;
+	  	  case 2:
+	  		    cout<<"Two";
+	  		    break;
+	  	  case 3:
+	  		    cout<<"Three";
+	  		    break;
+	  	  case 4:
+	  		    cout<<"Four";
+	  		    break;\
+	  	  case 5:
+	  		    cout<<"Five";
+	  		    break;
+	  	  default:
+	  		    cout<<" It does not exist\n please enter correct number";
+	 }
+}
