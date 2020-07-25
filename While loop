@@ -1,0 +1,15 @@
+#include <iostream>
+using namespace std;
+int main()
+{
+	int n,limit;
+	cout<<"Enter the value of n = ";
+	cin>>n;
+	cout<<"Enter the limit = ";
+	cin>>limit;
+	while(n<=limit)
+	{
+		cout<<n++<<"\n";
+	}
+  return 0;	    
+}
