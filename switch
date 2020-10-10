@@ -3,7 +3,7 @@ using namespace std;
 int main()
 {
 	int  ch;
-	cout<<"choose any number which you want to change";
+	cout<<"choose any number which you want to print in words";
 	cout<<"\n1. 1\n2. 2\n3. 3\n4. 4\n5. 5\n";
 	cin>>ch;
 	 switch(ch)
