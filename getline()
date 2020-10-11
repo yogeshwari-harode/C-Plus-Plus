@@ -1,0 +1,10 @@
+#include<iostream>
+using namespace std;
+int main()
+{
+	string data;
+	//To read a line we use getline ()
+	getline(cin,data); 
+	cout<<data;
+	return 0;
+}
