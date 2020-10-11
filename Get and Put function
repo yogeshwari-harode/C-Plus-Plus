@@ -1,0 +1,15 @@
+#include<iostream>
+using namespace std;
+int main()
+{
+	int count=0;
+	char ch;
+	cout<<"Input Text";
+	while(ch!='\n')
+	{
+		cin.get(ch);
+		cout.put(ch);
+		count++;
+	}
+	return 0;
+}
