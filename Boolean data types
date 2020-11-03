@@ -1,0 +1,16 @@
+#include<iostream>
+#include<math.h>
+using namespace std;
+int main()
+{
+	bool n=true,m=false;;
+	//true=1
+	//false=0
+	cout<<n<<endl;
+	cout<<m<<endl;
+	cout<<boolalpha;
+	//boolalpha is used to write anything in alphabet
+	cout<<n<<endl;
+	cout<<m<<endl;
+   return 0;
+}
