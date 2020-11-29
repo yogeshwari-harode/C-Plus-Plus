@@ -1,0 +1,19 @@
+#include<bits/stdc++.h>
+using namespace std;
+int main()
+{
+	float hindi,english,maths,physics,chemistry;
+	float percentage;
+	cout<<"Enter the marks of hindi     : ";
+	cin>>hindi;
+	cout<<"Enter the marks of english   : ";
+	cin>>english;
+	cout<<"Enter the marks of maths     : ";	
+	cin>>maths;
+	cout<<"Enter the marks of physics   : ";
+	cin>>physics;
+	cout<<"Enter the marks of chemistry : ";
+	cin>>chemistry;
+	percentage=(hindi+english+maths+physics+chemistry)/5;
+	cout<<"percentage = "<<percentage;
+}
