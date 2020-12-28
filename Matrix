@@ -65,7 +65,7 @@ int main()
    			for(j=0;j<2;j++)
    				{
    					C[i][j]=A[i][j]+B[i][j]; 
-	//IF YOU WANT TO MULTIPLY(*),DIVIDE(\),SUBTRACTION(-) THIS VALUE 
+	//IF YOU WANT TO DIVIDE(\),SUBTRACTION(-) THIS VALUE 
 	//THEN YOU ONLY NEED TO CHANGE THE OPERATOR HERE
    					cout<<"\t"<<C[i][j];
 	   			}
