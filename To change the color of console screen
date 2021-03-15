@@ -1,0 +1,12 @@
+#include<iostream>
+
+using namespace std;
+
+int main()
+{
+system ("color 4a"); //you can change the color of the console screen as you want
+cout <<"Hello World";
+
+cin.ignore();
+return 0;
+}
