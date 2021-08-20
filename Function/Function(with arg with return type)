@@ -1,0 +1,20 @@
+//Takes something return something
+#include<bits/stdc++.h>
+using namespace std;
+int add(int,int);
+int main()
+{
+    int s,x,y;
+    cout<<"Enter the value of x,y : ";
+    cin>>x>>y;
+    s=add(x,y);
+    cout<<"Sum = "<<s;
+}
+
+int add(int a,int b)
+{
+     int c;
+     
+     c=a+b;
+     return c;
+}
