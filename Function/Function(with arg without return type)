@@ -1,0 +1,25 @@
+#include<bits/stdc++.h>
+using namespace std;
+void add(int,int);//GLOBAL DECLARATION 
+int main()
+{
+    int x,y;
+
+    //void add(int,int);
+    //LOCAL DECLARATION 
+    /* IT IS USED ONLY IN THE MAIN FUNCTION */
+
+    cout<<"Enter the value of x,y : ";
+    cin>>x>>y;
+    
+    add(x,y);     // --> ACTUAL PARAMETERS
+    //FUNCTION CALL BY VALUE
+}
+
+void add(int a,int b)   // -->FORMAL PARAMETERS
+{
+     int c;
+     
+     c=a+b;
+     cout<<"Sum = "<<c;
+}
