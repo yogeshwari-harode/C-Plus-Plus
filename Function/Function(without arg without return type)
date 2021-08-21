@@ -1,0 +1,16 @@
+#include<bits/stdc++.h>
+using namespace std;
+int main()
+{
+    void add(void);
+    add();
+}
+
+void add()
+{
+    int a,b,c;
+    cout<<"Enter the value of a,b : ";
+    cin>>a>>b;
+    c=a+b;
+    cout<<"Sum = "<<c;
+}
