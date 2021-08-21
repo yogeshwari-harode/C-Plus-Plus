@@ -1,0 +1,19 @@
+//Takes nothing return something
+#include<bits/stdc++.h>
+using namespace std;
+int add(void);
+int main()
+{
+    int s;
+    s=add();
+    cout<<"Sum = "<<s;
+}
+
+int add()
+{
+     int a,b,c;
+     cout<<"Enter the value of a,b : ";
+     cin>>a>>b;
+     c=a+b;
+     return c;
+}
