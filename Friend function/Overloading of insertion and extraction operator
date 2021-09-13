@@ -1,0 +1,75 @@
+#include<bits/stdc++.h>
+using namespace std;
+
+
+class Complex 
+{
+	private:
+		int a,b;
+	public:
+    
+		void setData(int x,int y)
+		{
+			a=x;
+			b=y;
+		}
+    
+		void showData()
+		{
+			cout<<"a="<<a<<endl<<"b="<<b;
+		}
+    
+
+		friend ostream& operator<<(ostream&,Complex); 
+		friend istream& operator>>(istream&,Complex&);
+
+		//reference of Complex is used because we want to change in actual arguments
+
+};
+
+
+
+
+//Insertion operator
+
+
+ostream& operator<<(ostream &dout,Complex C)
+{
+	cout<<"a="<<C.a<<endl<<"b="<<C.b;
+	//dout<<"a="<<C.a<<endl<<"b="<<C.b;
+	return (dout);
+}
+
+
+
+//extraction operator
+
+
+istream& operator>>(istream &din,Complex &C)
+{  
+	cin>>C.a>>C.b;
+	//din<<"a="<<C.a<<endl<<"b="<<C.b; 
+	return (din);
+}
+
+
+int main()
+{
+    
+	Complex c1;
+    
+	cout<<"Enter a Complex number : ";
+    
+	cin>>c1;    
+	//cin is the object of a class which has many versions of extraction operator because somtimes we pass the int value to it and somtimes float,char
+    
+	//cin.operator>>(c1);
+    
+	cout<<"You entered : "<<endl;
+    
+    
+	cout<<c1;   
+	//operator<<(cout,c1);
+    
+return 0;
+}
