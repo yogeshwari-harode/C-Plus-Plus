@@ -18,11 +18,14 @@ class B : public A
 {    
 	int b;  
 	public:    
-		B(int x,int y):A(x) //B constructor    
+		B(int x,int y):A(x) //B constructor 
 		{        
 			b=y;        
 			cout<<"b = "<<b;   
 		}
+	/*  In B constructor Parant class is execute first and then the child class is execute
+    		but when they called child class is written first and then the parent class
+    	*/
 };
 
 
