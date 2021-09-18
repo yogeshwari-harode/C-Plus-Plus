@@ -1,3 +1,10 @@
+/*
+
+Inheritance :-
+it is a process of inheriting properties and behaviours of existing class into a new class
+
+*/
+
 #include<bits/stdc++.h>
 using namespace std;
 
@@ -15,6 +22,7 @@ class A
 
 
 class B : public A
+//class Derived_class : Visibility_Mode Base_class
 {  
 	public:  
 		void setData(int x)  
