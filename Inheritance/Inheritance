@@ -1,0 +1,34 @@
+#include<bits/stdc++.h>
+using namespace std;
+
+class A
+{   
+	private:   
+		int a;    
+	protected:   
+		void setValue(int k)    
+		{       
+			a=k;        
+			cout<<"a = "<<a;   
+		}
+};
+
+
+class B : public A
+{  
+	public:  
+		void setData(int x)  
+		{      
+			cout<<"Enter any number : ";      
+			cin>>x;      
+			setValue(x);  
+		}
+};
+
+
+int main()
+{    
+	B obj;    
+	obj.setData(4);    
+return 0;
+}
