@@ -1,0 +1,19 @@
+#include<bits/stdc++.h>
+using namespace std;
+
+template <class X> 
+X greater_num(X a,X b)
+{
+	if(a>b)
+		return a;
+	else
+		return b;
+}
+
+
+int main()
+{   
+	cout<<greater_num(4,8);    
+	cout<<greater_num(5.2,3.1);
+return 0;
+}
