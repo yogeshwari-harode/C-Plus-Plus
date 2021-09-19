@@ -1,0 +1,29 @@
+#include<bits/stdc++.h>
+using namespace std;
+
+class Car
+{
+  public:
+  void shiftGear() 
+  {
+      cout<<"Car's shiftGear Called";
+  }
+};
+
+class SportsCar:public Car
+{
+  public:
+  void shiftGear()  //Method overriding
+  {
+      cout<<"SportsCar's shiftGear Called";
+  }
+ 
+};
+
+
+int main()
+{
+    SportsCar obj;
+    obj.shiftGear();   //SportsCar    
+    return 0;
+}
