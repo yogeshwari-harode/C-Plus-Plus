@@ -1,0 +1,32 @@
+#include<bits/stdc++.h>
+using namespace std;
+
+class A
+{
+    public:
+    virtual void f1()   {  
+        cout<<"run time ,dynamic or late binding of f1 using virtual function";
+        
+    }
+};
+
+class B: public A
+{
+    public: 
+    void f1()   {  
+        cout<<"f1 of class B is called here ";
+        
+    }   //function overriding
+};
+
+int main()
+{
+    A *p,o1;
+    B o2;
+    //p=&o1;
+    p=&o2;
+    p->f1();    //A 
+    //f1 of A class will execute here because at the time of declaration we declare the pointer of type A thats why it execute f1 function of class A
+    //and the solution is that when we write virtual before f1 function of class A so f1 of class A will execute after the memory allocated to it
+    return 0;
+}
