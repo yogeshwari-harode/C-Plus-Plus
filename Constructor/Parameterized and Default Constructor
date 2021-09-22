@@ -1,0 +1,32 @@
+#include<bits/stdc++.h>
+using namespace std;
+
+class Complex
+{
+    private:
+        int a,b,c;
+    public:
+        Complex(int x,int y)    //Parameterized Constructor
+        {
+            a=x;
+            b=y;
+            cout<<"Two Parameterized Constructor\n";
+            cout<<"a="<<a<<" b="<<b<<endl;
+        }
+        Complex(int k)  //Parameterized Constructor
+        {
+            c=k;
+            cout<<"One Parameterized Constructor\n";
+            cout<<"c="<<c<<endl;
+        }
+        Complex()   //Default Constructor
+        {
+            cout<<"Default Constructor\n";
+        }
+};
+
+int main()
+{
+    Complex c1(10,4),c2(5),c3;
+    return 0;
+}
