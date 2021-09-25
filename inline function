@@ -1,0 +1,16 @@
+#include<bits/stdc++.h>
+using namespace std;
+
+inline void fun();
+
+int main()
+{    
+	cout<<"You are in main function\n";    
+	fun();    
+	return 0;
+}
+
+void fun()
+{ 
+  cout<<"You are in fun function";
+}
