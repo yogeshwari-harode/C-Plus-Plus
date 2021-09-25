@@ -1,16 +1,17 @@
-#include<stdio.h>
-#include<conio.h>
+#include<bits/stdc++.h>
+using namespace std;
+
 int main() 
 {
 	int age;
-	printf("Enter the age of person : ");
-	scanf("%d",&age);
+	cout<<"Enter the age of person : ";
+	cin>>age;
 	if(age>=18)
 	{
-		printf("The person is eligible for voting ");
+		cout<<"The person is eligible for voting ";
 	}
 	else{
-		printf("The person is not eligible for voting ");
+		cout<<"The person is not eligible for voting ";
 	}
 	return 0;	
 }
