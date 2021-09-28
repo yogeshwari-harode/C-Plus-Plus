@@ -1,0 +1,22 @@
+#include<bits/stdc++.h>
+using namespace std;
+
+class A
+{  
+	private:     
+		int a,b;      
+		const int x;  
+	public:      
+		A():x(5)        
+		//Constructor Name : Initializer using commas        
+		{            
+			cout<<"x="<<x;        
+		}
+};
+
+
+int main()
+{    
+	A obj;    
+return 0;
+}
