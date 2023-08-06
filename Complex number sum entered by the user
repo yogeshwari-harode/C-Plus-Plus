@@ -1,0 +1,48 @@
+#include<iostream>
+using namespace std;
+
+class Complex
+{
+private:
+  int a, b;
+
+public:
+  void set_data ()
+  {
+    cin >> a >> b;
+  }
+  void show_data ()
+  {
+    cout << "Entered complex number is : ";
+    cout << a << " + " << b << "i" << endl;
+  }
+
+    void show_data_aftersum()
+    {
+        cout<<endl;
+        cout<<"Sum of comkplex number is : ";
+        cout<<a<<" + "<<b<<"i"<<endl;   
+    }
+  Complex add (Complex c)
+  {
+    Complex temp;
+    temp.a = a + c.a;
+    temp.b = b + c.b;
+    return (temp);
+  }
+};
+
+
+
+int
+main ()
+{
+  Complex c1, c2, c3;
+  c1.set_data ();
+  c2.set_data ();
+  c1.show_data ();
+  c2.show_data ();
+  c3 = c1.add (c2);
+  c3.show_data_aftersum ();
+  return 0;
+}
