@@ -1,0 +1,9 @@
+#include<iostream>
+using namespace std;
+int main()
+{
+    string s="Hello! This is yami";
+    cout<<s<<endl;
+    s.resize(6);
+    cout<<s<<endl;
+}
