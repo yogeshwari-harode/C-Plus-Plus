@@ -1,0 +1,16 @@
+#include <bits/stdc++.h>
+using namespace std;
+
+int main()
+{
+	string s1="Ram";
+  	string s2="Shyam";
+	cout << "Value of s1 before: " << s1 << endl;
+	cout << "Value of s2 before: " << s2 << endl;
+
+	// swap values of the variables
+	swap(s1, s2);
+	cout << "Value of s1 now: " << s1 << endl;
+	cout << "Value of s2 now: " << s2 << endl;
+	return 0;
+}
