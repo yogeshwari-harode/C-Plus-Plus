@@ -1,0 +1,33 @@
+#include<bits/stdc++.h>
+using namespace std;
+
+class Integer{
+	private:
+	int x;
+	public:
+		void setData(int a){
+			x=a;
+		}
+		void ShowData(){
+			cout<<"x="<<x<<endl;
+		}
+		Integer operator--(){		//pre-decrement
+			Integer i;
+			i.x=--x;
+			return i;
+		}
+		Integer operator--(int){		//post-decrement
+			Integer i;					//here for post-decrement we have to write int in parameter 
+			i.x=x--;					//so compiler can find that it is post-increment
+			return i;
+		}
+};
+
+int main(){
+	Integer i1,i2;
+	i1.setData(3);
+	i2=i1--;
+	i1.ShowData();
+	i2.ShowData();
+	return 0;
+}
