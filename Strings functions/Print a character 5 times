@@ -1,0 +1,9 @@
+#include<bits/stdc++.h>
+using namespace std;
+
+int main(){
+    cout<<"Printing Star 5 times"<<endl;
+    string str(5,'*');
+    cout<<str;
+    return 0;
+}
