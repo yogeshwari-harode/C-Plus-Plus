@@ -1,0 +1,12 @@
+#include<bits/stdc++.h>
+using namespace std;
+
+int main(){
+    string str="I like Coffee";
+    cout<<"Enter String : ";
+    int index=str.find(" ");
+    // replace b characters from a index with string str
+    str.replace(index,1," Don't ");
+    cout<<str;
+    return 0;
+}
